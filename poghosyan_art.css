@@ -1,5 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
     box-sizing: border-box;
 }
+
+.logo_span{
+    margin-left: -40px;
+}
+/* 
+.text-with-lines::after,
+.text-with-lines::before{
+    content: "";
+    position: absolute;
+    border-top: solid 2px green;
+    top: 27px;
+    width:149px;
+    height: 5px;
+} */
