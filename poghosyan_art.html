@@ -7,56 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./poghosyan_art.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
+<!-- <body class="h-screen bg-[#342625]"> -->
+
 <body>
-    <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <header class="text-white body-font">
+        <div class="container-2xl mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                 <img src="./photos/logo.jpg" fill="none" stroke="currentColor" stroke-linecap="round"
                     stroke-linejoin="round" stroke-width="2" class="w-20 h-20 text-white p-2 rounded-full"
                     viewBox="0 0 24 24">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 <span class="text-xl">Eline <span class="text-green-700">Poghosyan</span></span>
-                <span class="mt-9 logo_span text-sm">art store</span>
+                <span class="mt-12 logo_span text-sm">art store</span>
             </a>
-            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <nav class="md:ml-auto ml-10 flex flex-wrap items-center text-base justify-center">
                 <a class="mr-10 cursor-pointer font-semibold hover:text-green-700">Home</a>
                 <a class="mr-10 cursor-pointer font-semibold hover:text-green-700">Shop</a>
                 <a class="mr-10 cursor-pointer font-semibold hover:text-green-700">Contact</a>
             </nav>
             <button
-                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 mr-1">Sign
+                class="inline-flex items-center bg-green-700 border-0 py-1 px-3 focus:outline-none hover:bg-green-600 rounded text-base mt-4 md:mt-0 mr-1">Sign
                 In
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
             </button>
             <button
-                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Sign
+                class="inline-flex items-center bg-green-700 border-0 py-1 px-3 focus:outline-none hover:bg-green-600 rounded text-base mt-4 md:mt-0">Sign
                 Up
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
             </button>
         </div>
     </header>
     <!-- introduction with pic -->
-    <section class="text-black body-font">
-        <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
+    <section class="text-white body-font">
+        <div class="container-2xl mx-auto flex px-5 md:flex-row flex-col items-center">
             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:mb-0 items-center text-center">
-                <h1 class="title-font sm:text-3xl text-3xl mb-4 font-medium">Hi there, I'm Eline <span
-                        class="text-green-700">Poghosyan</span>
+                <h1 class="title-font sm:text-3xl text-3xl mb-4 font-medium">Hi there, I'm Eline
+                    <span class="text-green-700">Poghosyan</span>
                     <br class="hidden lg:inline-block">I'm a <span class="text-green-700">painter</span> & <span
                         class="text-green-700">designer</span>
                 </h1>
                 <p class="mb-8 mt-8 text-center text-3xl font-semibold">Welcome to my colorful world</p>
                 <div class="flex justify-center mt-8">
                     <button
-                        class="flex text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 rounded text-lg">More
+                        class="flex text-white bg-green-700 border-0 mb-10 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">More
                         about me</button>
                 </div>
             </div>
@@ -66,8 +67,8 @@
         </div>
     </section>
     <!-- about me  -->
-    <section class="text-gray-600 body-font">
-        <div class="container px-5 py-20 mx-auto">
+    <section>
+        <div class="container-2xl px-5 py-16 mx-auto">
             <div class=" lg:w-3/4 w-full mx-auto text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                     class="inline-block w-8 h-8 text-green-600 mb-8" viewBox="0 0 975.036 975.036">
@@ -75,7 +76,8 @@
                         d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
                     </path>
                 </svg>
-                <p class="leading-relaxed text-lg">I was born in 1997 in the city of Vanadzor,Lori region.At the age of
+                <p class="leading-relaxed text-white text-lg">I was born in 1997 in the city of Vanadzor,Lori region.At
+                    the age of
                     2 my family moved to the capital Yerevan and we still live here. I attended primary school No 179 in
                     Yerevan in 2004, then high school No 105 in 2013,with a focus on history and law subjects.In 2015,I
                     enrolled in the Department of Journalism at Yerevan State University. In 2018, in parallel with my
@@ -101,10 +103,11 @@
             </div>
         </div>
     </section>
+    <!-- <exhibition> -->
     <section>
-        <h1 class="text-center mb-16 font-semibold text-4xl">First solo exhibiton</h1>
+        <h1 class="text-center mb-16 font-semibold text-white text-4xl">First solo exhibiton</h1>
         <img src="./photos/IMG_3236.jpg" class="w-full">
-        <div class="container px-5 py-16 mx-auto">
+        <div class="container-2xl px-5 py-8 mx-auto">
             <div class=" lg:w-3/4 w-full mx-auto text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                     class="inline-block w-8 h-8 text-green-600 mb-8" viewBox="0 0 975.036 975.036">
@@ -112,7 +115,8 @@
                         d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
                     </path>
                 </svg>
-                <p class="leading-relaxed text-lg">On april 9, 2022 I opened my first solo exhibition at the Union of
+                <p class="leading-relaxed text-white text-lg">On april 9, 2022 I opened my first solo exhibition at the
+                    Union of
                     Artists of Armenian, where I presented my original paintings, modeled clothes, and outfits created
                     on the bases of applied art. The exhibition ended on April 13. I use social media,especially
                     Instagram and Facebook, as a platform to spread creative activity. In the near future I am going to
@@ -124,12 +128,49 @@
                     absolutely my own works, as well as paintings created on the basis of samples of Artsakh's
                     century-old carpet weaving, particularly applied art, namely paintings presented on clothing.The
                     step was to open an art studio, which I will talk about next.</p>
-                <span class="inline-block h-1 w-10 rounded bg-green-500 mt-8 mb-6"></span>
+                <span class="inline-block h-1 w-10 rounded bg-green-500 mt-8"></span>
+            </div>
     </section>
-
+    <!-- my corner -->
     <section>
-        <div class="text-3xl font-semibold mb-8 text-center">Take a look some of my works</div>
-        <div class="container px-5 mx-auto flex flex-wrap">
+        <div class="text-3xl font-semibold mb-16 text-white text-center">My corner</div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="./photos/corner.jpg">
+            </div>
+            <div class="item">
+                <img src="./photos/corner (2).jpg">
+            </div>
+            <div class="item">
+                <img src="./photos/corner (3).jpg">
+            </div>
+            <div class="item">
+                <img src="./photos/corner (4).jpg">
+            </div>
+        </div>
+        <div class="container-2xl px-5 py-8 mx-auto">
+            <div class=" lg:w-3/4 w-full mx-auto text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                    class="inline-block w-8 h-8 text-green-600 mb-8" viewBox="0 0 975.036 975.036">
+                    <path
+                        d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                    </path>
+                </svg>
+                <p class="leading-relaxed text-white text-lg">As I mentioned the exhibition was to be followed by the
+                    opening of a
+                    studio.The idea of opening a studio was that I needed a space that would be a source of inspiration
+                    for me to be creative, where I could create paintings approved by my clients. The studio was a
+                    source of kind of self-sufficency for me. I mean I could be in my environment. And I come just to
+                    create something new and become even more professional in my filed.
+                </p>
+                <span class="inline-block h-1 w-20 rounded bg-green-500 mt-8"></span>
+            </div>
+        </div>
+    </section>
+    <!-- <my works> -->
+    <section>
+        <div class="text-3xl font-semibold mb-16 text-white text-center">Take a look some of my works</div>
+        <div class="container-2xl px-5 mx-auto flex flex-wrap">
             <div class="flex flex-wrap md:-m-2 -m-1">
                 <div class="flex flex-wrap w-1/2">
                     <div class="md:p-2 p-1 w-1/2">
@@ -162,6 +203,146 @@
             </div>
         </div>
     </section>
+    <!-- <footer> -->
+    <footer>
+        <div
+            class="container-2xl px-5 py-16 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                <a class="flex title-font font-medium items-center text-white text-gray-900 mb-4 md:mb-0">
+                    <img src="./photos/logo.jpg" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" class="w-20 h-20 text-white p-2 rounded-full"
+                        viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    <span class="text-xl">Eline <span class="text-green-700">Poghosyan</span></span>
+                    <span class="mt-16 logo_span text-sm">art store</span>
+                </a>
+                <p class="mt-2 text-sm text-white">Your fashion guide. Available all over the world. </p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div class="lg:w-1/3 md:w-1/3 w-full px-4">
+                    <h2 class="title-font font-medium tracking-widest text-white text-sm mb-3">USEFUL LINKS</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-white cursor-pointer">Home</a>
+                        </li>
+                        <li>
+                            <a class="text-white cursor-pointer">Shop</a>
+                        </li>
+                        <li>
+                            <a class="text-white cursor-pointer">Contact</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/3 md:w-1/3 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">GET IN TOUCH </h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-white cursor-pointer">Facebook</a>
+                        </li>
+                        <li>
+                            <a class="text-white cursor-pointer">Instagram</a>
+                        </li>
+                        <li>
+                            <a class="text-white cursor-pointer">Email</a>
+                        </li>
+                        <li>
+                            <a class="text-white cursor-pointer">Phone number</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/3 md:w-1/3 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">FOR COOPERATION</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-white inline-flex cursor-pointer">DM <svg fill="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                    viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white inline-flex cursor-pointer">DM <svg fill="none" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                    viewBox="0 0 24 24">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white inline-flex cursor-pointer">DM<svg xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                    class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-white cursor-pointer">Phone number</a>
+                        </li>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container-2xl mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-sm text-center text-white sm:text-left">© 2023
+                    <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-white ml-1"
+                        target="_blank">Eline Poghosyan-art store</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="text-white">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-white">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>

@@ -1,17 +1,9 @@
 *{
     box-sizing: border-box;
+    background-color: #342625;
 }
 
 .logo_span{
     margin-left: -40px;
 }
-/* 
-.text-with-lines::after,
-.text-with-lines::before{
-    content: "";
-    position: absolute;
-    border-top: solid 2px green;
-    top: 27px;
-    width:149px;
-    height: 5px;
-} */
+
